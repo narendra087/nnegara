@@ -1,15 +1,27 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Header from '../components/layouts/Header'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Negara Portofolio</title>
       </Head>
       
-      <h1 className='text-red-500'>Hi All</h1>
+      {/* Header */}
+      <Header />
+      
+      {/* Hero */}
+      
+      {/* About */}
+      
+      {/* Experience */}
+      
+      {/* Skills */}
+      
+      {/* Projects */}
+      
+      {/* Contact */}
     </div>
   )
 }
