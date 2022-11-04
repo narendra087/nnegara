@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Header from '../components/layouts/Header'
+import Hero from '../components/layouts/Hero'
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-[#2C3333] text-[#E7F6F2] h-screen snap-y snap-mandatory overflow-y-scroll z-0'>
       <Head>
         <title>Negara Portofolio</title>
       </Head>
@@ -12,6 +13,9 @@ export default function Home() {
       <Header />
       
       {/* Hero */}
+      <section id='hero' className=''>
+        <Hero />
+      </section>
       
       {/* About */}
       
