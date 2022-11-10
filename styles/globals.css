@@ -10,4 +10,26 @@
 
 * {
   scroll-behavior: smooth;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-[#395B64]/20;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-[#A5C9CA]/20;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #395B64;
 }
