@@ -16,6 +16,7 @@ import angular from '../../public/images/angular.jpeg'
 import vue from '../../public/images/vue.jpeg'
 import nuxt from '../../public/images/nuxt.jpeg'
 import js from '../../public/images/js.jpeg'
+import laravel from '../../public/images/laravel.jpeg'
 
 type Props = {}
 
@@ -89,6 +90,11 @@ const WorkExperience = (props: Props) => {
           title: 'JavaScript',
           link: 'https://javascript.com/'
         },
+        {
+          image: laravel,
+          title: 'Laravel',
+          link: 'https://laravel.com/'
+        },
       ],
       startDate: 'Jan, 01 2020',
       endDate: 'Feb, 06 2022',
@@ -106,11 +112,11 @@ const WorkExperience = (props: Props) => {
       initial={{opacity:0}}
       whileInView={{opacity:1}}
       transition={{duration:1.5}}
-      className='h-screen flex relative overflow-hidden text-left flex-col md:flex-row max-w-full px-10 pt-[130px] justify-evenly mx-auto items-center'
+      className='h-screen flex relative overflow-hidden text-left flex-col md:flex-row max-w-full px-7 sm:px-10 pt-[130px] justify-evenly mx-auto items-center'
     >
       <h3 className='absolute top-24 uppercase tracking-[15px] text-2xl'>Experience</h3>
       
-      <div className='w-full flex space-x-5 overflow-x-scroll snap-x snap-mandatory pb-5'>
+      <div className='w-full flex space-x-3 sm:space-x-5 overflow-x-scroll snap-x snap-mandatory pb-5'>
         {
           experienceList.map((exp:any, index: number) => {
             return (

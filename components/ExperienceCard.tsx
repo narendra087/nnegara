@@ -8,7 +8,7 @@ type Props = {
 
 const ExperienceCard = ({expData}: Props) => {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[calc(100vw-150px)] md:w-[500px] xl:w-[600px] snap-center bg-[#395B64]/50 p-10 opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-300 overflow-hidden'>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[calc(100vw-100px)] md:w-[500px] xl:w-[600px] h-[calc(100vh-250px)] snap-center bg-[#395B64]/50 p-5 sm:p-10 opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-300 overflow-hidden overflow-y-auto'>
       <motion.div
         initial={{
           y: -100,
@@ -28,7 +28,7 @@ const ExperienceCard = ({expData}: Props) => {
       <div className='px-0'>
         <h4 className='text-4xl font-light'>{expData.title}</h4>
         <p className='font-bold text-2xl mt-1 '>{expData.work}</p>
-        <div className='flex space-x-2 my-2'>
+        <div className='flex gap-2 my-2'>
           {
             expData.tools.map((tool:any, index:number) => {
               return (
