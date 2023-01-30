@@ -4,6 +4,7 @@ import ExperienceCard from '../ExperienceCard'
 
 import glovory from '../../public/images/glovory.jpeg'
 import onlist from '../../public/images/onlist.jpeg'
+import cilacs from '../../public/images/cilacs.jpeg'
 
 import remix from '../../public/images/remix.jpeg'
 import refine from '../../public/images/refine.jpeg'
@@ -17,6 +18,7 @@ import vue from '../../public/images/vue.jpeg'
 import nuxt from '../../public/images/nuxt.jpeg'
 import js from '../../public/images/js.jpeg'
 import laravel from '../../public/images/laravel.jpeg'
+import tailwind from '../../public/images/tailwind.jpeg'
 
 type Props = {}
 
@@ -63,7 +65,7 @@ const WorkExperience = (props: Props) => {
           link: 'https://sass-lang.com/'
         }
       ],
-      startDate: 'Feb, 07 2022',
+      startDate: 'Feb 2022',
       endDate: 'Present',
       jobDesc: [
         'Develop Hotel Management System, using Refine and Remix (ReactJS)',
@@ -86,23 +88,56 @@ const WorkExperience = (props: Props) => {
           link: 'https://vuejs.org/'
         },
         {
+          image: laravel,
+          title: 'Laravel',
+          link: 'https://laravel.com/'
+        },
+        {
           image: js,
           title: 'JavaScript',
           link: 'https://javascript.com/'
         },
         {
-          image: laravel,
-          title: 'Laravel',
-          link: 'https://laravel.com/'
-        },
+          image: sass,
+          title: 'SASS',
+          link: 'https://sass-lang.com/'
+        }
       ],
-      startDate: 'Jan, 01 2020',
-      endDate: 'Feb, 06 2022',
+      startDate: 'Jan 2020',
+      endDate: 'Feb 2022',
       jobDesc: [
         'Develop numerous features, such as forum page, blog page, google adsense integration, and many more internal features using NuxtJS',
         'Build Content Management System (CMS) for onlist.id using VueJS',
         'Handle process of increasing the ranking and visibility of Onlist Website (SEO)',
         'Implementing best practices and website performance seen from google search console. Managed to increase performance around 90%'
+      ]
+    },
+    {
+      image: cilacs,
+      work: 'Cilacs UII',
+      title: 'Frontend Developer',
+      tools: [
+        {
+          image: nuxt,
+          title: 'NuxtJS',
+          link: 'https://nuxtjs.org/'
+        },
+        {
+          image: js,
+          title: 'JavaScript',
+          link: 'https://javascript.com/'
+        },
+        {
+          image: tailwind,
+          title: 'Tailwind',
+          link: 'https://tailwindcss.com/'
+        },
+      ],
+      startDate: 'Oct 2021',
+      endDate: 'Mar 2022',
+      jobDesc: [
+        'Continue the development and improve UI of Cilacs wonline test website',
+        'Develop features for CEPT online test, such as reschedule test, refund test, online test, and registration course/test.',
       ]
     }
   ]
