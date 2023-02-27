@@ -27,13 +27,13 @@ const Header = (props: Props) => {
         <SocialIcon
           target='_blank'
           url="https://linkedin.com/in/narendranegara"
-          fgColor='#A5C9CA'
+          fgColor='#C84B31'
           bgColor='transparent'
         />
         <SocialIcon
           target='_blank'
           url="https://github.com/narendra087"
-          fgColor='#A5C9CA'
+          fgColor='#C84B31'
           bgColor='transparent'
         />
       </motion.div>
@@ -57,7 +57,7 @@ const Header = (props: Props) => {
         <SocialIcon
           className='cursor-pointer'
           network='email'
-          fgColor='#A5C9CA'
+          fgColor='#C84B31'
           bgColor='transparent'
         />
         <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in Touch</p>
