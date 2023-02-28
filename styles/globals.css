@@ -41,3 +41,12 @@
 .circle.circle-orange-2 {
   box-shadow: 0px 0px 100px 0px rgba(236, 219, 186, 0.50);
 }
+
+header {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.intro-section {
+  box-shadow: 0px -75px 100px 0px rgba(200, 75, 49, 0.50);
+}
