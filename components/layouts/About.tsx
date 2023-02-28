@@ -42,11 +42,11 @@ const About = (props: Props) => {
         </motion.div>
         
         <div className="px-0 md:px-5 flex flex-col gap-4">
-          <h4 className="lg:text-4xl md:text-3xl text-xl font-semibold">
+          <h4 className="lg:text-4xl md:text-3xl text-xl font-semibold text-[#C84B31]">
             Just a little background
           </h4>
           <p className='text-md'>
-            A Front End Developer with 3+ years of experience working in the technology industry. Familiar with web developer skills such as JavaScript, NuxtJS, VueJS, Vuex, NextJS, ReactJS, Sass, TailwindCSS, HTML5, CSS, Laravel, CodeIgniter and still learning for AngularJS, Refine and Remix.
+            A <span className='text-[#C84B31] underline underline-offset-4 decoration-[#C84B31]'>Front End Developer</span> with 3+ years of experience working in the technology industry. Familiar with web developer skills such as JavaScript, NuxtJS, VueJS, Vuex, NextJS, ReactJS, Sass, TailwindCSS, HTML5, CSS, Laravel, CodeIgniter and still learning for AngularJS, Refine and Remix.
           </p>
           <p className='text-md'>I am interested in front end development, and want to learn about front end technology that I have never mastered.</p>
         </div>
