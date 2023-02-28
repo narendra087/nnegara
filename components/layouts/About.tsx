@@ -12,44 +12,44 @@ const About = (props: Props) => {
       initial={{opacity:0}}
       whileInView={{opacity:1}}
       transition={{duration:1.5}}
-      className='relative flex flex-col h-screen text-center md:text-left md:flex-row max-w-7xl px-7 sm:px-10 pt-[130px] justify-evenly mx-auto items-center'
+      className='relative min-h-screen md:pt-[90px] pt-[78px] text-center md:text-left max-w-7xl px-5 xl:mx-auto mx-5 flex flex-col items-center'
     >
-      <h3 className='absolute top-24 uppercase tracking-[15px] text-2xl'>About</h3>
+      <h3 className='uppercase tracking-[15px] text-2xl'>About Me</h3>
       
-      <motion.div
-        className='w-56 h-56 rounded-full object-cover flex-shrink-0 md:rounded-xl md:w-64 md:h-96'
-        initial={{
-          x: -200,
-          opacity: 0,
-        }}
-        transition={{
-          duration: 1.5,
-        }}
-        whileInView={{
-          opacity: 1,
-          x: 0,
-        }}
-        viewport={{
-          once: true,
-        }}
-      >
-        <Image
+      <div className='flex flex-col md:flex-row gap-6 my-auto items-center'>
+        <motion.div
           className='w-56 h-56 rounded-full object-cover flex-shrink-0 md:rounded-xl md:w-64 md:h-96'
-          src={ProfileImage}
-          alt='about-image'
-        />
-      </motion.div>
-      
-      <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold">
-          Just a little background
-        </h4>
-        <p>
-        Experienced Web Developer with a demonstrated history of working in the technology industry. Skilled in JavaScript, Typescript, React.js, Next.js, Vue.js, Nuxt.js, Laravel, Sass, Git.
-        Still learning for AngularJS, and other frontend technology.
+          initial={{
+            x: -200,
+            opacity: 0,
+          }}
+          transition={{
+            duration: 1.5,
+          }}
+          whileInView={{
+            opacity: 1,
+            x: 0,
+          }}
+          viewport={{
+            once: true,
+          }}
+        >
+          <Image
+            className='w-56 h-56 rounded-full object-cover flex-shrink-0 md:rounded-xl md:w-64 md:h-96'
+            src={ProfileImage}
+            alt='about-image'
+          />
+        </motion.div>
         
-        Strong engineering professional with a Bachelor of Technology focused in Information System from Institute Technology Sepuluh Nopember (ITS) Surabaya.
-        </p>
+        <div className="px-0 md:px-5 flex flex-col gap-4">
+          <h4 className="lg:text-4xl md:text-3xl text-xl font-semibold">
+            Just a little background
+          </h4>
+          <p className='text-md'>
+            A Front End Developer with 3+ years of experience working in the technology industry. Familiar with web developer skills such as JavaScript, NuxtJS, VueJS, Vuex, NextJS, ReactJS, Sass, TailwindCSS, HTML5, CSS, Laravel, CodeIgniter and still learning for AngularJS, Refine and Remix.
+          </p>
+          <p className='text-md'>I am interested in front end development, and want to learn about front end technology that I have never mastered.</p>
+        </div>
       </div>
     </motion.div>
   )

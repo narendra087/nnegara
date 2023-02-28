@@ -22,17 +22,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  @apply bg-[#395B64]/20;
+  @apply bg-[#191919]/20;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  @apply bg-[#A5C9CA]/20;
+  @apply bg-[#ECDBBA]/20;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #395B64;
+  background: #C84B31;
 }
 
 .circle.circle-orange-1 {
