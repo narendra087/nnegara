@@ -50,3 +50,7 @@ header {
 .intro-section {
   box-shadow: 0px -75px 100px 0px rgba(200, 75, 49, 0.50);
 }
+
+.about-section {
+  box-shadow: 0px 75px 100px 0px rgba(200, 75, 49, 0.50);
+}

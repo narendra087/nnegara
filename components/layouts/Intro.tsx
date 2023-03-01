@@ -10,7 +10,8 @@ const Intro = () => {
     <div className='intro-section flex flex-col-reverse lg:flex-row gap-4 px-5 max-w-7xl xl:mx-auto mx-5 md:min-h-[calc(100vh-90px)] min-h-[calc(100vh-58px)] bg-[#191919] lg:rounded-t-[100px] rounded-t-[50px] transition-all duration-300'>
       <div className='picture-section flex-1 relative'>
         <motion.div
-          className='circle circle-orange-2 lg:w-[380px] lg:h-[380px] w-[200px] h-[200px] transition-all duration-300 absolute lg:bottom-[50px] lg:left-10 right-5 bottom-10 bg-[#ECDBBA] rounded-[25%] rotate-[30deg]'></motion.div>
+          className='circle circle-orange-2 lg:w-[380px] lg:h-[380px] w-[200px] h-[200px] transition-all duration-300 absolute lg:bottom-[50px] lg:left-10 right-5 bottom-10 bg-[#ECDBBA] rounded-[25%] rotate-[30deg]'>
+        </motion.div>
         <motion.div
           initial={{
             // x: -500,

@@ -12,13 +12,13 @@ const About = (props: Props) => {
       initial={{opacity:0}}
       whileInView={{opacity:1}}
       transition={{duration:1.5}}
-      className='relative h-screen md:pt-[90px] pt-[68px] pb-10 text-center md:text-left max-w-7xl px-5 xl:mx-auto mx-5 flex flex-col items-center'
+      className='about-section relative h-screen md:pt-[90px] pt-[68px] pb-10 text-center md:text-left max-w-7xl px-10 xl:mx-auto mx-5 flex flex-col items-center overflow-y-hidden'
     >
       <h3 className='uppercase tracking-[15px] relative left-[15px] md:text-2xl text-xl'>About Me</h3>
       
-      <div className='flex flex-col md:flex-row gap-6 py-5 md:py-0 my-auto items-center'>
+      <div className='flex flex-col md:flex-row gap-5 py-5 md:py-0 my-auto items-center relative'>
         <motion.div
-          className='w-48 h-48 rounded-full object-cover flex-shrink-0 md:rounded-xl md:w-64 md:h-96'
+          className='w-48 h-48 rounded-full object-cover flex-shrink-0 md:rounded-xl md:w-64 md:h-96 relative z-10'
           initial={{
             x: -200,
             opacity: 0,
@@ -40,8 +40,11 @@ const About = (props: Props) => {
             alt='about-image'
           />
         </motion.div>
+        <motion.div
+          className='circle z-0 circle-orange-1 lg:w-[500px] lg:h-[500px] w-[500px] h-[500px] transition-all duration-300 absolute  md:bg-[#C84B31] bg-[#191919] rounded-[25%] rotate-[30deg] -bottom-[250px] -left-[250px]'>
+        </motion.div>
         
-        <div className="px-0 md:px-5 flex flex-col gap-4">
+        <div className="px-0 md:px-5 flex flex-col gap-4 relative z-10">
           <h4 className="lg:text-4xl md:text-3xl text-xl font-semibold text-[#C84B31]">
             Just a little background
           </h4>
