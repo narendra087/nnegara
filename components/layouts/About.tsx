@@ -12,7 +12,7 @@ const About = (props: Props) => {
       initial={{opacity:0}}
       whileInView={{opacity:1}}
       transition={{duration:1.5}}
-      className='about-section relative h-screen md:pt-[90px] pt-[68px] pb-10 text-center md:text-left max-w-7xl px-10 xl:mx-auto mx-5 flex flex-col items-center overflow-y-hidden'
+      className='about-section relative h-screen md:pt-[90px] pt-[68px] pb-10 text-center md:text-left max-w-7xl md:px-10 px-5 xl:mx-auto mx-5 flex flex-col items-center overflow-hidden'
     >
       <h3 className='uppercase tracking-[15px] relative left-[15px] md:text-2xl text-xl'>About Me</h3>
       
@@ -41,7 +41,7 @@ const About = (props: Props) => {
           />
         </motion.div>
         <motion.div
-          className='circle z-0 circle-orange-1 lg:w-[500px] lg:h-[500px] w-[500px] h-[500px] transition-all duration-300 absolute  md:bg-[#C84B31] bg-[#191919] rounded-[25%] rotate-[30deg] -bottom-[250px] -left-[250px]'>
+          className='circle z-0 circle-orange-1 lg:w-[500px] lg:h-[500px] w-[400px] h-[400px] transition-all duration-300 absolute  md:bg-[#C84B31] bg-[#191919] rounded-[25%] rotate-[30deg] -bottom-[250px] -left-[250px]'>
         </motion.div>
         
         <div className="px-0 md:px-5 flex flex-col gap-4 relative z-10">
