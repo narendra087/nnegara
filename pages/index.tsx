@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Navigation from '@/components/layouts/Navigation'
 import Header from '@/components/layouts/Header'
 import Hero from '@/components/layouts/Hero'
 import About from '@/components/layouts/About'
@@ -8,7 +9,7 @@ import Experience from '@/components/layouts/Experience'
 
 export default function Home() {
   return (
-    <div className='bg-[#191919] text-[#FEFEFE] h-screen snap-y snap-mandatory overflow-y-scroll z-0'>
+    <div className='bg-[#191919] text-[#FEFEFE] z-0'>
       <Head>
         <title>Narendra Portofolio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,6 +18,9 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
       </Head>
       
+      {/* Navigation */}
+      <Navigation />
+      
       {/* Header */}
       <Header />
       
@@ -24,7 +28,7 @@ export default function Home() {
       {/* <section id='hero' className='snap-start'>
         <Hero />
       </section> */}
-      <section id='intro'>
+      <section id='home'>
         <Intro />
       </section>
       

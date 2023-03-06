@@ -41,7 +41,7 @@ const About = (props: Props) => {
           />
         </motion.div>
         <motion.div
-          className='circle z-0 circle-orange-1 lg:w-[500px] lg:h-[500px] w-[400px] h-[400px] transition-all duration-300 absolute  md:bg-[#C84B31] bg-[#191919] rounded-[25%] rotate-[30deg] -bottom-[250px] -left-[250px]'>
+          className='circle z-0 circle-orange-2 lg:w-[500px] lg:h-[500px] w-[400px] h-[400px] transition-all duration-300 absolute  md:bg-[#ECDBBA] bg-[#191919] rounded-[25%] rotate-[30deg] -bottom-[250px] -left-[250px]'>
         </motion.div>
         
         <div className="px-0 md:px-5 flex flex-col gap-4 relative z-10">

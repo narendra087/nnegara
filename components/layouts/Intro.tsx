@@ -3,7 +3,7 @@ import Image from "next/image";
 import { motion } from 'framer-motion'
 
 import ProfileImage from '../../public/images/profile-intro.png'
-import Code from '../../public/icons/code.svg'
+import { BsGithub, BsLinkedin, BsTelegram } from 'react-icons/bs';
 
 const Intro = () => {
   return (
@@ -44,11 +44,17 @@ const Intro = () => {
         <p className='mt-2 lg:text-base md:text-sm text-xs z-10'>
           <span className='underline underline-offset-4 decoration-[#C84B31]'>Frontend Developer</span> with 3+ years experience in technology industry.<br /> Deliver <span className='underline underline-offset-4 decoration-[#C84B31]'>clean code</span> and producing the <span className='underline underline-offset-4 decoration-[#C84B31]'>good product</span>.
         </p>
-        <nav className='flex gap-4 mt-6 justify-center lg:justify-start z-10'>
-          <a className='hover:text-[#C84B31] transition-colors duration-300 lg:py-2 lg:px-4 py-1.5 px-2 lg:text-base text-sm bg-[#ECDBBA] text-[#191919] rounded-xl' href="#about">About</a>
-          <a className='hover:text-[#C84B31] transition-colors duration-300 lg:py-2 lg:px-4 py-1.5 px-2 lg:text-base text-sm bg-[#ECDBBA] text-[#191919] rounded-xl' href="#experience">Experience</a>
-          <a className='hover:text-[#C84B31] transition-colors duration-300 lg:py-2 lg:px-4 py-1.5 px-2 lg:text-base text-sm bg-[#ECDBBA] text-[#191919] rounded-xl' href="#portfolio">Portfolio</a>
-        </nav>
+        <div className='flex gap-4 mt-6 justify-center lg:justify-start z-10'>
+          <a target="_blank" rel="noreferrer" href='https://linkedin.com/in/narendranegara'>
+            <BsLinkedin size={24} style={{fill: '#C84B31'}} />
+          </a>
+          <a target="_blank" rel="noreferrer" href='https://github.com/narendra087'>
+            <BsGithub size={24} style={{fill: '#C84B31'}} />
+          </a>
+          <a target="_blank" rel="noreferrer" href='https://t.me/narendranegara'>
+            <BsTelegram size={24} style={{fill: '#C84B31'}} />
+          </a>
+        </div>
         <div className='lg:block absolute bottom-0 right-0 lg:text-[200px] text-[150px] text-[#C84B31] opacity-30 z-0'>
           {/* <Code /> */}
           {"</>"}
