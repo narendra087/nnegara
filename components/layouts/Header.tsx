@@ -27,14 +27,7 @@ const Header = (props: Props) => {
         }}
         className='flex flex-row items-center gap-5 self-center'
       >
-        {/* <a target="_blank" rel="noreferrer" href='https://linkedin.com/in/narendranegara'>
-          <BsLinkedin size={22} style={{fill: '#C84B31'}} />
-        </a>
-        <a target="_blank" rel="noreferrer" href='https://github.com/narendra087'>
-          <BsGithub size={22} style={{fill: '#C84B31'}} />
-        </a> */}
-        <Image src={logo} alt="nnegara logo" width={200} height={50} />
-        {/* <p  className='md:text-2xl text-xl font-bold text-[#C84B31]'><span style={{fontFamily: 'Fira Code'}}>{'</>'}</span> {'NNEGARA'}</p> */}
+        <Image src={logo} alt="nnegara logo" className="h-[35px] md:h-[40px] lg:h-[50px] w-auto" />
       </motion.div>
       
       <motion.div
