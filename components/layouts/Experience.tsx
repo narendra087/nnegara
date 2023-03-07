@@ -10,7 +10,6 @@ import { BiBriefcase } from 'react-icons/bi'
 
 
 const Experience = () => {
-  
   const renderTimeline = () => {
     return (
       <VerticalTimeline className=''>
@@ -61,7 +60,7 @@ const Experience = () => {
           <h3 className="vertical-timeline-element-title font-bold text-xl">Frontend Developer</h3>
           <h4 className="vertical-timeline-element-subtitle">PT Berkat Bejana Anugerah<br />(Onlist.id)</h4>
           <p>
-            Tools used: NuxtJS, VueJS, Vuex, JavaScript, SCSS, HTML, Laravel, PHP.
+            Tools used: NuxtJS, VueJS, Vuex, JavaScript, SCSS, HTML, Laravel, JQuery, PHP.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement

@@ -1,9 +1,7 @@
 import Head from 'next/head'
 import Navigation from '@/components/layouts/Navigation'
 import Header from '@/components/layouts/Header'
-import Hero from '@/components/layouts/Hero'
 import About from '@/components/layouts/About'
-import WorkExperience from '@/components/layouts/WorkExperience'
 import Intro from '@/components/layouts/Intro'
 import Experience from '@/components/layouts/Experience'
 
@@ -24,10 +22,7 @@ export default function Home() {
       {/* Header */}
       <Header />
       
-      {/* Hero */}
-      {/* <section id='hero' className='snap-start'>
-        <Hero />
-      </section> */}
+      {/* Home */}
       <section id='home'>
         <Intro />
       </section>
@@ -39,11 +34,8 @@ export default function Home() {
       
       {/* Experience */}
       <section id='experience'>
-        {/* <WorkExperience /> */}
         <Experience />
       </section>
-      
-      {/* Skills */}
       
       {/* Projects */}
       
