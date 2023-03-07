@@ -1,7 +1,9 @@
 import React from 'react'
+import Image from 'next/image'
 import { motion } from "framer-motion"
 
-import { BsChatDotsFill } from 'react-icons/bs'
+import logo from '../../public/images/logo.png'
+
 import { BiEnvelope } from 'react-icons/bi'
 
 type Props = {}
@@ -31,7 +33,8 @@ const Header = (props: Props) => {
         <a target="_blank" rel="noreferrer" href='https://github.com/narendra087'>
           <BsGithub size={22} style={{fill: '#C84B31'}} />
         </a> */}
-        <p  className='md:text-2xl text-xl font-bold text-[#C84B31]'><span style={{fontFamily: 'Fira Code'}}>{'</>'}</span> {'NNEGARA'}</p>
+        <Image src={logo} alt="nnegara logo" width={200} height={50} />
+        {/* <p  className='md:text-2xl text-xl font-bold text-[#C84B31]'><span style={{fontFamily: 'Fira Code'}}>{'</>'}</span> {'NNEGARA'}</p> */}
       </motion.div>
       
       <motion.div
