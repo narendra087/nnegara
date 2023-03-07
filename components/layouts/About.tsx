@@ -53,12 +53,12 @@ const About = (props: Props) => {
             Familiar with web developer skills and tools such as JavaScript, TypeScript, NuxtJS, VueJS, Vuex, NextJS, ReactJS, Redux, Sass, TailwindCSS, HTML, CSS, Laravel, CodeIgniter and still learning for AngularJS, Refine and Remix.
           </p>
           <div className="flex items-center gap-5 mx-auto md:mx-0">
-            <div className="flex flex-col gap-2 max-w-[80px]">
+            <div className="flex flex-col gap-1 max-w-[80px]">
               <CountUp end={3} suffix="+" className="md:text-5xl text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#C84B31] to-[#ECDBBA]" />
               <p className="text-sm">Years of Experience</p>
             </div>
-            <div className="flex flex-col gap-2 max-w-[80px]">
-              <CountUp end={4} className="md:text-5xl text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#C84B31] to-[#ECDBBA]" />
+            <div className="flex flex-col gap-1 max-w-[80px]">
+              <CountUp end={5} className="md:text-5xl text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#C84B31] to-[#ECDBBA]" />
               <p className="text-sm">Projects Completed</p>
             </div>
           </div>

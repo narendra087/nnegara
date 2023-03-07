@@ -9,7 +9,7 @@ import Experience from '@/components/layouts/Experience'
 
 export default function Home() {
   return (
-    <div className='bg-[#191919] text-[#FEFEFE] z-0'>
+    <div className='bg-[#191919] text-[#FEFEFE] z-0 overflow-hidden'>
       <Head>
         <title>Narendra Portofolio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />

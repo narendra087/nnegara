@@ -7,7 +7,7 @@ import { BsGithub, BsLinkedin, BsTelegram } from 'react-icons/bs';
 
 const Intro = () => {
   return (
-    <div className='intro-section flex flex-col lg:flex-row gap-4 px-5 max-w-7xl xl:mx-auto mx-5 md:min-h-[calc(100vh-90px)] min-h-[calc(100vh-58px)] bg-[#191919] lg:rounded-t-[100px] rounded-t-[50px] transition-all duration-300 lg:mb-10 mb-5'>
+    <div className='intro-section flex flex-col lg:flex-row gap-4 px-5 max-w-7xl xl:mx-auto mx-5 md:min-h-[calc(100vh-90px)] min-h-[calc(100vh-58px)] bg-[#191919] lg:rounded-t-[100px] rounded-t-[50px] transition-all duration-300 mb-5'>
       <div className='picture-section flex-1 relative items-center flex lg:block pt-5 max-h-80 lg:max-h-full'>
         <div
           className='circle circle-orange-2 lg:w-[380px] lg:h-[380px] w-[200px] h-[200px] transition-all duration-300 lg:absolute lg:bottom-[50px] lg:left-10 right-5 bottom-10 bg-[#ECDBBA] rounded-[25%] rotate-[45deg] mx-auto lg:mx-0 overflow-hidden'>

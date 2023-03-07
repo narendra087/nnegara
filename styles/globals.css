@@ -16,18 +16,19 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  @apply bg-[#191919]/20;
+  @apply bg-[#191919];
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  @apply bg-[#ECDBBA]/20;
+  @apply bg-[#ECDBBA]/50;
+  /* @apply bg-[#191919]; */
 }
 
 /* Handle on hover */
