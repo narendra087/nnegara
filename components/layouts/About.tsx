@@ -13,7 +13,7 @@ const About = (props: Props) => {
       initial={{opacity:0}}
       whileInView={{opacity:1}}
       transition={{duration:1.5}}
-      className='about-section relative h-screen md:pt-[90px] pt-[68px] pb-10 text-center md:text-left max-w-7xl md:px-10 px-5 xl:mx-auto mx-5 flex flex-col items-center overflow-hidden'
+      className='section relative h-screen md:pt-[90px] pt-[70px] pb-10 text-center md:text-left max-w-7xl md:px-10 px-5 xl:mx-auto mx-5 flex flex-col items-center overflow-hidden'
     >
       <h3 className='uppercase tracking-[15px] relative left-[15px] md:text-2xl text-xl'>About Me</h3>
       

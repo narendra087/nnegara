@@ -48,10 +48,10 @@ header {
   backdrop-filter: blur(8px);
 }
 
-.intro-section {
+.section {
   box-shadow: 0px 0 50px 0px rgba(200, 75, 49, 0.50);
 }
 
-.about-section {
-  box-shadow: 0px 0 50px 0px rgba(200, 75, 49, 0.50);
+.section:not(.section-intro) {
+  margin-top: 20px;
 }

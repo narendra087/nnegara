@@ -1,7 +1,8 @@
 import React from 'react'
 import { motion } from "framer-motion"
 
-import { BsLinkedin, BsGithub, BsChatDotsFill } from 'react-icons/bs'
+import { BsChatDotsFill } from 'react-icons/bs'
+import { BiEnvelope } from 'react-icons/bi'
 
 type Props = {}
 
@@ -47,10 +48,10 @@ const Header = (props: Props) => {
         transition={{
           duration: 1.5,
         }}
-        className='flex flex-row items-center text-gray-300 cursor-pointer gap-3'
+        className='flex text-gray-300 cursor-pointer gap-3'
       >
-        <BsChatDotsFill size={22} style={{fill: '#C84B31'}} />
-        <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in Touch</p>
+        <BiEnvelope size={22} style={{fill: '#C84B31'}} />
+        <p className='uppercase hidden md:block text-sm text-gray-400'>Get in Touch</p>
       </motion.div>
     </header>
   )
