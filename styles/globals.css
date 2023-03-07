@@ -55,3 +55,19 @@ header {
 .section:not(.section-intro) {
   margin-top: 20px;
 }
+
+.vertical-timeline-element {
+  margin: 3em 0 !important;
+}
+.vertical-timeline-element:first-child {
+  margin-top: 0 !important;
+}
+.vertical-timeline-element:last-child {
+  margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 1170px) {
+  .vertical-timeline-element-content-arrow {
+    border-right-color: #C84B31 !important;
+  }
+}
