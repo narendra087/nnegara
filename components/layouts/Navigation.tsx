@@ -10,7 +10,7 @@ const Navigation = () => {
           <Link smooth={true} spy={true} duration={300} offset={-100} title="Home" to='home' className="cursor-pointer flex items-center justify-center"><BiHomeAlt /></Link>
           <Link smooth={true} spy={true} duration={300} title="About" to='about' className="cursor-pointer flex items-center justify-center"><BiUser /></Link>
           <Link smooth={true} spy={true} duration={300} title="Experience" to='experience' className="cursor-pointer flex items-center justify-center"><BiBriefcase /></Link>
-          <Link smooth={true} spy={true} duration={300} title="Project" to='Project' className="cursor-pointer flex items-center justify-center"><BiArchive /></Link>
+          <Link smooth={true} spy={true} duration={300} title="Project" to='project' className="cursor-pointer flex items-center justify-center"><BiArchive /></Link>
           <Link smooth={true} spy={true} duration={300} title="Contact" to='contact' className="cursor-pointer flex items-center justify-center"><BiEnvelope /></Link>
         </div>
       </div>

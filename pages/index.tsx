@@ -4,16 +4,13 @@ import Header from '@/components/layouts/Header'
 import About from '@/components/layouts/About'
 import Intro from '@/components/layouts/Intro'
 import Experience from '@/components/layouts/Experience'
+import Project from '@/components/layouts/Project'
 
 export default function Home() {
   return (
     <div className='bg-[#191919] text-[#FEFEFE] z-0 pt-[60px] lg:pt-[90px]'>
       <Head>
         <title>Narendra Portofolio</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
       </Head>
       
       {/* Navigation */}
@@ -38,6 +35,9 @@ export default function Home() {
       </section>
       
       {/* Projects */}
+      <section id='project'>
+        <Project />
+      </section>
       
       {/* Contact */}
     </div>

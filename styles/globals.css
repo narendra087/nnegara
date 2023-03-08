@@ -66,6 +66,30 @@ header {
   margin-bottom: 0 !important;
 }
 
+.text-gradient {
+  @apply text-transparent bg-clip-text bg-gradient-to-tr from-[#C84B31] to-[#ECDBBA];
+}
+
+.btn-primary {
+  background: #C84B31;
+  color: #ECDBBA;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: rgba(200, 75, 49, 0.7);
+}
+
+.btn-secondary {
+  background: #ECDBBA;
+  color: #C84B31;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background: rgba(236, 219, 186, 0.7);
+}
+
 @media screen and (max-width: 1170px) {
   .vertical-timeline-element-content-arrow {
     border-right-color: #C84B31 !important;
