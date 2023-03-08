@@ -39,22 +39,38 @@ const Intro = () => {
         </motion.div>
       </div>
       <div className="flex flex-col flex-1 lg:pt-20 relative pt-0 text-center lg:text-left">
-        <h1 className='lg:text-[50px] md:text-[30px] text-[24px] z-10'>Hi, I Am</h1>
-        <h2 className='md:text-[35px] text-[24px] leading-tight text-transparent bg-clip-text bg-gradient-to-tr from-[#C84B31] to-[#ECDBBA] z-10'>Narendra Puspa Adi Negara</h2>
-        <p className='mt-2 lg:text-base md:text-sm text-xs z-10'>
-          <span className='underline underline-offset-4 decoration-[#C84B31]'>Frontend Developer</span> with 3+ years experience in technology industry.<br /> Deliver <span className='underline underline-offset-4 decoration-[#C84B31]'>clean code</span> and producing the <span className='underline underline-offset-4 decoration-[#C84B31]'>good product</span>.
-        </p>
-        <div className='flex gap-4 mt-6 justify-center lg:justify-start z-10'>
-          <a target="_blank" rel="noreferrer" href='https://linkedin.com/in/narendranegara'>
-            <BsLinkedin size={24} style={{fill: '#C84B31'}} />
-          </a>
-          <a target="_blank" rel="noreferrer" href='https://github.com/narendra087'>
-            <BsGithub size={24} style={{fill: '#C84B31'}} />
-          </a>
-          <a target="_blank" rel="noreferrer" href='https://t.me/narendranegara'>
-            <BsTelegram size={24} style={{fill: '#C84B31'}} />
-          </a>
-        </div>
+        <motion.div
+          initial={{
+            opacity: 0,
+            bottom: -80
+          }}
+          animate={{
+            opacity: 1,
+            bottom: 0,
+          }}
+          transition={{
+            ease: "easeOut",
+            duration: 1.5,
+          }}
+          className='flex flex-col relative'
+        >
+          <h1 className='lg:text-[50px] md:text-[30px] text-[24px] z-10'>Hi, I Am</h1>
+          <h2 className='md:text-[35px] text-[24px] leading-tight text-transparent bg-clip-text bg-gradient-to-tr from-[#C84B31] to-[#ECDBBA] z-10'>Narendra Puspa Adi Negara</h2>
+          <p className='mt-2 lg:text-base md:text-sm text-xs z-10'>
+            <span className='underline underline-offset-4 decoration-[#C84B31]'>Frontend Developer</span> with 3+ years experience in technology industry.<br /> Deliver <span className='underline underline-offset-4 decoration-[#C84B31]'>clean code</span> and producing the <span className='underline underline-offset-4 decoration-[#C84B31]'>good product</span>.
+          </p>
+          <div className='flex gap-4 mt-6 justify-center lg:justify-start z-10'>
+            <a target="_blank" rel="noreferrer" href='https://linkedin.com/in/narendranegara'>
+              <BsLinkedin size={24} style={{fill: '#C84B31'}} />
+            </a>
+            <a target="_blank" rel="noreferrer" href='https://github.com/narendra087'>
+              <BsGithub size={24} style={{fill: '#C84B31'}} />
+            </a>
+            <a target="_blank" rel="noreferrer" href='https://t.me/narendranegara'>
+              <BsTelegram size={24} style={{fill: '#C84B31'}} />
+            </a>
+          </div>
+        </motion.div>
         <div className='lg:block absolute bottom-0 right-0 lg:text-[200px] text-[150px] text-[#C84B31] opacity-30 z-0'>
           {/* <Code /> */}
           {"</>"}

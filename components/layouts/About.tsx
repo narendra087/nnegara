@@ -21,7 +21,7 @@ const About = (props: Props) => {
         <motion.div
           className='w-48 h-48 rounded-full object-cover flex-shrink-0 md:rounded-xl md:w-64 md:h-96 relative z-10'
           initial={{
-            x: -200,
+            x: 200,
             opacity: 0,
           }}
           transition={{
@@ -46,13 +46,48 @@ const About = (props: Props) => {
         </motion.div>
         
         <div className="px-0 md:px-5 flex flex-col gap-4 relative z-10">
-          <h4 className="md:text-3xl text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-tr from-[#C84B31] to-[#ECDBBA]">
-            A Front-end Developer with over 3 years of experience.
-          </h4>
-          <p className='md:text-md text-sm'>
-            Familiar with web developer skills and tools such as JavaScript, TypeScript, NuxtJS, VueJS, Vuex, NextJS, ReactJS, Redux, Sass, TailwindCSS, HTML, CSS, Laravel, CodeIgniter and still learning for AngularJS, Refine and Remix.
-          </p>
-          <div className="flex items-center gap-5 mx-auto md:mx-0">
+          <motion.div
+            initial={{
+              x: -200,
+              opacity: 0,
+            }}
+            transition={{
+              duration: 1.5,
+            }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+            }}
+            viewport={{
+              once: true,
+            }}
+            className="flex flex-col gap-4"
+          >
+            <h4 className="md:text-3xl text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-tr from-[#C84B31] to-[#ECDBBA]">
+              A Front-end Developer with over 3 years of experience.
+            </h4>
+            <p className='md:text-md text-sm'>
+              Familiar with web developer skills and tools such as JavaScript, TypeScript, NuxtJS, VueJS, Vuex, NextJS, ReactJS, Redux, Sass, TailwindCSS, HTML, CSS, Laravel, CodeIgniter and still learning for AngularJS, Refine and Remix.
+            </p>
+          </motion.div>
+          <motion.div
+            initial={{
+              y: 80,
+              opacity: 0,
+            }}
+            transition={{
+              duration: 1,
+              delay: 1.5
+            }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+            }}
+            viewport={{
+              once: true,
+            }}
+            className="flex items-center gap-5 mx-auto md:mx-0"
+          >
             <div className="flex flex-col gap-1 max-w-[80px]">
               <CountUp end={3} suffix="+" className="md:text-5xl text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#C84B31] to-[#ECDBBA]" />
               <p className="text-sm">Years of Experience</p>
@@ -61,7 +96,7 @@ const About = (props: Props) => {
               <CountUp end={5} className="md:text-5xl text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#C84B31] to-[#ECDBBA]" />
               <p className="text-sm">Projects Completed</p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </motion.div>
