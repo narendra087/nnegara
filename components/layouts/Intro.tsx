@@ -70,6 +70,7 @@ const Intro = () => {
               <BsTelegram size={24} style={{fill: '#C84B31'}} />
             </a>
           </div>
+            <a href="documents/CV_Narendra.pdf" className='btn btn-primary max-w-[160px] w-full mt-10 mx-auto lg:mx-0' download={true}>Download CV</a>
         </motion.div>
         <div className='lg:block absolute bottom-0 right-0 lg:text-[200px] text-[150px] text-[#C84B31] opacity-30 z-0'>
           {/* <Code /> */}
