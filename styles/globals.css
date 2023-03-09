@@ -77,7 +77,7 @@ header {
 }
 
 .btn-primary:hover {
-  background: rgba(200, 75, 49, 0.7);
+  background: #943D2B;
 }
 
 .btn-secondary {
@@ -87,7 +87,7 @@ header {
 }
 
 .btn-secondary:hover {
-  background: rgba(236, 219, 186, 0.7);
+  background: #ADA189;
 }
 
 @media screen and (max-width: 1170px) {

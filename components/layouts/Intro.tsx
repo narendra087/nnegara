@@ -52,7 +52,7 @@ const Intro = () => {
             ease: "easeOut",
             duration: 1.5,
           }}
-          className='flex flex-col relative'
+          className='flex flex-col relative z-10'
         >
           <h1 className='lg:text-[50px] md:text-[30px] text-[24px] z-10'>Hi, I Am</h1>
           <h2 className='md:text-[35px] text-[24px] leading-tight text-transparent bg-clip-text bg-gradient-to-tr from-[#C84B31] to-[#ECDBBA] z-10'>Narendra Puspa Adi Negara</h2>
@@ -70,7 +70,7 @@ const Intro = () => {
               <BsTelegram size={24} style={{fill: '#C84B31'}} />
             </a>
           </div>
-            <a href="documents/CV_Narendra.pdf" className='btn btn-primary max-w-[160px] w-full mt-10 mx-auto lg:mx-0' download={true}>Download CV</a>
+          <a href="documents/CV_Narendra.pdf" className='btn btn-primary max-w-[160px] w-full mt-10 mx-auto lg:mx-0 relative z-10' download={true}>Download CV</a>
         </motion.div>
         <div className='lg:block absolute bottom-0 right-0 lg:text-[200px] text-[150px] text-[#C84B31] opacity-30 z-0'>
           {/* <Code /> */}
