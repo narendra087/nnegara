@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import logo from '../../public/images/logo.png'
 
 import { BiEnvelope } from 'react-icons/bi'
+import { FaTelegramPlane } from 'react-icons/fa'
 
 type Props = {}
 
@@ -46,8 +47,10 @@ const Header = (props: Props) => {
         }}
         className='flex text-gray-300 cursor-pointer gap-3'
       >
-        <BiEnvelope size={22} style={{fill: '#C84B31'}} />
-        <p className='uppercase hidden md:block text-sm text-gray-400'>Get in Touch</p>
+        <a target="_blank" rel="noreferrer" href='https://t.me/narendranegara' className='flex items-center'>
+          <FaTelegramPlane size={22} style={{fill: '#C84B31'}} />
+          <p className='uppercase hidden md:block text-sm text-gray-400 ml-3'>Get in Touch</p>
+        </a>
       </motion.div>
     </header>
   )

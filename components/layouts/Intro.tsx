@@ -66,9 +66,9 @@ const Intro = () => {
             <a target="_blank" rel="noreferrer" href='https://github.com/narendra087'>
               <BsGithub size={24} style={{fill: '#C84B31'}} />
             </a>
-            <a target="_blank" rel="noreferrer" href='https://t.me/narendranegara'>
+            {/* <a target="_blank" rel="noreferrer" href='https://t.me/narendranegara'>
               <BsTelegram size={24} style={{fill: '#C84B31'}} />
-            </a>
+            </a> */}
           </div>
           <a href="documents/CV_Narendra.pdf" className='btn btn-primary max-w-[160px] w-full mt-10 mx-auto lg:mx-0 relative z-10' download={true}>Download CV</a>
         </motion.div>

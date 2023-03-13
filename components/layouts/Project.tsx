@@ -64,7 +64,9 @@ const Project = () => {
                 This is my latest work including individual project and professional project.
                 I&apos;m open to become a freelancer or be one of your developer team, if you are interested in hiring me, click the button below.
               </p>
-              <button className={`btn w-fit btn-primary`}>Hire Me</button>
+              <a target="_blank" rel="noreferrer" href='https://t.me/narendranegara'>
+                <button className={`btn w-fit btn-primary`}>Hire Me</button>
+              </a>
             </div>
             { projectCard(Onlist01, 'Frontend Developer', 'OnList', 'An online marketplace for selling and renting residence.') }
             { projectCard(Onlist02, 'Frontend Developer', 'OnList CMS', 'Content Management System (CMS) for OnList Website') }
